@@ -1,2 +1,1 @@
-# form-validation
- 
+Validate html form inputs using javascript.
