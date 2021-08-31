@@ -47,3 +47,13 @@ button:active{
     float: right;
     width: 70px;
 }
+p{
+    font-family: arial;
+    font-size:0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto;
+    color:orange;
+    opacity: 0;
+    height: 0;
+}
