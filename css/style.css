@@ -1,3 +1,4 @@
+/************************************** DESKTOP VIEW ****************************************/
 body{
     font-family: arial;
     color: #333;
@@ -56,4 +57,27 @@ p{
     color:orange;
     opacity: 0;
     height: 0;
+}
+/************************************** MOBILE VIEW *****************************************/
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 2em;
+    }
+    form{
+        width:auto;
+        padding:0px 10px;
+    }
+    input{
+        font-size: 1.5em;
+    }
+    #show_hide_password_btn{
+        padding:8px;
+        margin-top: -53px;
+        margin-right: 6px;
+        width: 50px;
+        font-size: 12px;
+    }
+    p{
+        font-size:0.8em;
+    }
 }
