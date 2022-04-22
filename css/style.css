@@ -1,6 +1,6 @@
 /************************************** DESKTOP VIEW ****************************************/
 body{
-    font-family: arial;
+    font-family: arial, serif;
     color: #333;
 }
 h1{
@@ -13,7 +13,7 @@ form{
     width: 500px;
     margin: 20px auto;
 }
-input{
+.user_input{
     display: block;
     padding: 8px 16px;
     font-size: 2em;
@@ -29,7 +29,9 @@ button{
     margin: 10px auto;
     border-radius: 10px;
     border: 3px solid black;
-
+}
+button[type="submit"]{
+    padding:16px 24px;
 }
 button:hover{
     background-color: #ccc;
@@ -42,18 +44,18 @@ button:active{
     background-color: darkcyan;
     border-color:black;
 }
-#show_hide_password_btn{
+.show_hide_password_btn{
     margin-top: -58px;
     margin-right: 10px;
     float: right;
     width: 70px;
 }
-p{
-    font-family: arial;
+.msg{
+    font-family: arial, serif;
     font-size:0.9em;
     font-weight: bold;
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
     color:orange;
     opacity: 0;
     height: 0;
@@ -65,19 +67,19 @@ p{
     }
     form{
         width:auto;
-        padding:0px 10px;
+        padding:0 10px;
     }
-    input{
+    .user_input{
         font-size: 1.5em;
     }
-    #show_hide_password_btn{
+    .show_hide_password_btn{
         padding:8px;
         margin-top: -53px;
         margin-right: 6px;
         width: 50px;
         font-size: 12px;
     }
-    p{
+    .msg{
         font-size:0.8em;
     }
 }

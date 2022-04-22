@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>Form Validation</title>
+    <title>Contact Form</title>
     <link rel="icon" type="image/png" href="images/fav-icon.png">
     <link rel="stylesheet" href="css/cssReset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,18 +11,19 @@
 </head>
 <body>
 <h1>Sign Up</h1>
-<form>
-    <input type="text" placeholder="username" name="username">
+<form name="signup-form">
+    <input class="user_input" type="text" placeholder="username" name="username" minlength="5" maxlength="12" required>
     <p class="msg">Username must be and contain 5 - 12 characters</p>
-    <input type="email" name="email" placeholder="email">
+    <input class="user_input" type="email" name="email" placeholder="email" required>
     <p class="msg">Email must be a valid address, e.g. me@mydomain.com</p>
-    <input type="password" name="password" placeholder="password">
-    <button id="show_hide_password_btn">Show</button>
+    <input class="user_input" type="text" name="phone" placeholder="Phone No." required>
+    <p class="msg">Must be a valid phone number.<br>(12 digits <923xzyyyyyyy>)</p>
+    <input class="user_input" type="password" name="password" placeholder="password" required>
+    <button class="show_hide_password_btn">Show</button>
     <p class="msg">Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
-    <input type="text" name="telephone" placeholder="telephone">
-    <p class="msg">Telephone must be a valid PK telephone number<br>(12 digits <923xzyyyyyyy>)</p>
-    <input type="text" name="slug" placeholder="profile slug">
-    <p class="msg">Slug must contain only lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+    <input class="user_input" type="password" name="confirm_pwd" placeholder="Confirm password" required>
+    <button class="show_hide_password_btn">Show</button>
+    <p class="msg">The confirm password does not match.</p>
     <button type="submit">SUBMIT</button>
 </form>
 
