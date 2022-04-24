@@ -73,7 +73,7 @@ button:active{
 @media only screen and (max-width: 600px){
     body{
         background: url("../images/mobile_bg.jpg") no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
     h1{
         font-size: 2em;
