@@ -2,7 +2,7 @@
 body{
     font-family: arial, serif;
     color: #333;
-    background: url("/images/form_bg.jpg") no-repeat;
+    background: url("https://github.com/shahbazhassan42000/form-validation/blob/main/images/form_bg.jpg") no-repeat;
     background-size: cover;
 }
 h1{
@@ -72,7 +72,7 @@ button:active{
 /************************************** MOBILE VIEW *****************************************/
 @media only screen and (max-width: 600px){
     body{
-        background: url("/images/mobile_bg.jpg") no-repeat;
+        background: url("https://github.com/shahbazhassan42000/form-validation/blob/main/images/form_bg.jpg/mobile_bg.jpg") no-repeat;
         background-size: cover;
     }
     h1{
