@@ -2,20 +2,23 @@
 body{
     font-family: arial, serif;
     color: #333;
+    background: url("/images/form_bg.jpg") no-repeat;
+    background-size: cover;
 }
 h1{
     font-weight: normal;
-    margin: 20px auto;
+    margin: 0 auto 18px auto;
     text-align: center;
     font-size: 2.5em;
 }
 form{
     width: 500px;
     margin: 20px auto;
+
 }
 .user_input{
     display: block;
-    padding: 8px 16px;
+    padding: 6px 16px;
     font-size: 2em;
     margin: 10px auto;
     width: 100%;
@@ -45,10 +48,16 @@ button:active{
     border-color:black;
 }
 .show_hide_password_btn{
-    margin-top: -58px;
+    margin-top: -56px;
     margin-right: 10px;
     float: right;
     width: 70px;
+}
+#formContainer{
+    background-color: #00333333;
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 4px;
 }
 .msg{
     font-family: arial, serif;
@@ -62,8 +71,15 @@ button:active{
 }
 /************************************** MOBILE VIEW *****************************************/
 @media only screen and (max-width: 600px){
+    body{
+        background: url("/images/mobile_bg.jpg") no-repeat;
+        background-size: cover;
+    }
     h1{
         font-size: 2em;
+    }
+    #formContainer{
+        width:auto;
     }
     form{
         width:auto;
@@ -74,7 +90,7 @@ button:active{
     }
     .show_hide_password_btn{
         padding:8px;
-        margin-top: -53px;
+        margin-top: -51px;
         margin-right: 6px;
         width: 50px;
         font-size: 12px;

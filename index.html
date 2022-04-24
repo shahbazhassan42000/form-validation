@@ -10,22 +10,23 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-<h1>Sign Up</h1>
-<form name="signup-form">
-    <input class="user_input" type="text" placeholder="username" name="username" minlength="5" maxlength="12" required>
-    <p class="msg">Username must be and contain 5 - 12 characters</p>
-    <input class="user_input" type="email" name="email" placeholder="email" required>
-    <p class="msg">Email must be a valid address, e.g. me@mydomain.com</p>
-    <input class="user_input" type="text" name="phone" placeholder="Phone No." required>
-    <p class="msg">Must be a valid phone number.<br>(12 digits <923xzyyyyyyy>)</p>
-    <input class="user_input" type="password" name="password" placeholder="password" required>
-    <button class="show_hide_password_btn">Show</button>
-    <p class="msg">Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
-    <input class="user_input" type="password" name="confirm_pwd" placeholder="Confirm password" required>
-    <button class="show_hide_password_btn">Show</button>
-    <p class="msg">The confirm password does not match.</p>
-    <button type="submit">SUBMIT</button>
-</form>
-
+<section id="formContainer">
+    <h1>Sign Up</h1>
+    <form name="signup-form">
+        <input class="user_input" type="text" placeholder="username" name="username" minlength="5" maxlength="12" required>
+        <p class="msg">Username must be and contain 5 - 12 characters</p>
+        <input class="user_input" type="email" name="email" placeholder="email" required>
+        <p class="msg">Email must be a valid address, e.g. me@mydomain.com</p>
+        <input class="user_input" type="text" name="phone" placeholder="Phone No." required>
+        <p class="msg">Must be a valid phone number.<br>(12 digits <923xzyyyyyyy>)</p>
+        <input class="user_input" type="password" name="password" placeholder="password" required>
+        <button class="show_hide_password_btn">Show</button>
+        <p class="msg">Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+        <input class="user_input" type="password" name="confirm_pwd" placeholder="Confirm password" required>
+        <button class="show_hide_password_btn">Show</button>
+        <p class="msg">The confirm password does not match.</p>
+        <button type="submit">SUBMIT</button>
+    </form>
+</section>
 </body>
 </html>
